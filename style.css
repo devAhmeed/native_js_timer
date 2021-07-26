@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin :0;
+  padding :0;
+  box-sizing : border-box;
+}
+body{
+  display: flex;
+  /* background-color: #908A6F; */
+  background: linear-gradient(to bottom , #0aa2d0  , rgb(243, 243, 243) );
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+h1{
+  font-family: 'Shadows Into Light Two', cursive;
+  text-transform: capitalize;
+  letter-spacing: 1mm;
+  text-align: center;
+  color:#C74C38;
+}
+span.timer{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  color:#C74C38;
+}
+span.def{
+  font-family: 'Acme', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 15px;
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0;
+}
+span.thanwaya{
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  color: #C74C38;
+}
+div.end{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
