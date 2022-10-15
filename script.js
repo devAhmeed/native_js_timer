@@ -14,7 +14,7 @@ const secondsEl = document.querySelector(".seconds");
 
 setInterval(function(){
   const now = new Date();
-  const date = new Date(2022 , 5 , 11 , 10);
+  const date = new Date(2023 , 6 , 11 , 10);
   const rem = date - now;
   const oneDay= 24*60*60*1000;
   const oneHour = 60*60*1000;
