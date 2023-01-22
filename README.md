@@ -1,1 +1,1 @@
-# Simple Timer Using Native Js
+# Simple Timer Using _Native Js_
